@@ -3,7 +3,23 @@
 import re
 
 match={}
+#store=[]
+
 resultPath="/home/carson/Documents/结果.txt"
+#oPath = '/home/carson/Documents/词典/制作/选景.txt'
+#cPath = '/home/carson/Documents/词典/制作/选景(改).txt'
+
+#with open(oPath, 'r') as oFile:
+    #for line in oFile.readlines():
+        #line.decode('gbk')
+        #store = line
+
+#with open(cPath, 'a') as cFile:
+ #   for line in store:
+  #      line.encode('utf-8')
+   #     cFile.write(line)
+    #    cFile.write('\n')
+
 
 def Comment(text):
     with open(text,'r') as file:
@@ -32,6 +48,7 @@ Operate("/home/carson/Documents/词典/主题/风格.txt")
 Operate("/home/carson/Documents/词典/制作/出品公司.txt")
 Operate("/home/carson/Documents/词典/制作/制作.txt")
 Operate("/home/carson/Documents/词典/制作/导演.txt")
+Operate("/home/carson/Documents/词典/制作/name.txt")
 Operate("/home/carson/Documents/词典/制作/编剧.txt")
 Operate("/home/carson/Documents/词典/剧情/剧情.txt")
 Operate("/home/carson/Documents/词典/剧情/发展.txt")
